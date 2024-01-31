@@ -245,84 +245,7 @@ a.block_link:hover {
 .history {
     padding: 16px 0;
 }
-.message {
-    margin: 0 -10px;
-    transition: background-color 2.0s ease;
-}
-div.selected {
-    background-color: rgba(242,246,250,255);
-    transition: background-color 0.5s ease;
-}
-.service {
-    padding: 10px 24px;
-}
-.service .body {
-    text-align: center;
-}
-.service .userpic_wrap {
-    padding-top: 10px;
-}
-.service .userpic {
-    margin: 0 auto;
-}
-.service .userpic .initials {
-    font-size: 24px;
-}
-.message .userpic .initials {
-    font-size: 16px;
-}
-.default {
-    padding: 10px;
-}
-.default.joined {
-    margin-top: -10px;
-}
-.default .from_name {
-    color: #3892db;
-    font-weight: 700;
-    padding-bottom: 5px;
-}
-.default .from_name .details {
-    font-weight: normal;
-}
-.default .body {
-    margin-left: 60px;
-}
-.default .text {
-    word-wrap: break-word;
-    line-height: 150%;
-    unicode-bidi: plaintext;
-    text-align: start;
-}
-.default .reply_to,
-.default .media_wrap {
-    padding-bottom: 5px;
-}
-.default .media {
-    margin: 0 -10px;
-    padding: 5px 10px;
-}
-.default .media .fill,
-.default .media .thumb {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-}
-.default .media .fill {
-    background-repeat: no-repeat;
-    background-position: 12px 12px;
-    background-size: 24px 24px;
-}
-.default .media .title,
-.default .media_poll .question {
-    padding-top: 4px;
-    font-size: 14px;
-}
-.default .media .description {
-    color: #000000;
-    padding-top: 4px;
-    font-size: 13px;
-}
+
 .default .media .status {
     padding-top: 4px;
     font-size: 13px;
@@ -397,14 +320,7 @@ div.selected {
     opacity: 0;
     transition: opacity 3.0s ease;
 }
-.toast_body {
-    margin: 0 -50%;
-    float: left;
-    border-radius: 15px;
-    padding: 10px 20px;
-    background: rgba(0, 0, 0, 0.7);
-    color: #ffffff;
-}
+
 div.toast_shown {
     opacity: 1;
     transition: opacity 0.4s ease;
@@ -433,9 +349,6 @@ div.toast_shown {
 }
 .section.other {
     background-image: url(../images/section_other.png)
-}
-.page_header a.content {
-    background-image: url(../images/back.png);
 }
 .media_call .fill {
     background-image: url(../images/media_call.png)
@@ -523,9 +436,6 @@ div.toast_shown {
 }
 .media_voice_message .fill {
     background-image: url(../images/media_voice@2x.png)
-}
-.media_photo .fill {
-    background-image: url(../images/media_photo@2x.png)
 }
 .media_video .fill {
     background-image: url(../images/media_video@2x.png)
